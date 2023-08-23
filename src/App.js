@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import ParentComp from './components/UseContext/ParentComp';
+import HOC from './components/HOC';
+import CounterForTodos from './components/UseCallback/CounterForTodos';
+import UseMemo from './components/UseMemo/UseMemo';
+import RadioButton from './components/RadioButton';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ParentComp /> */}
+      {/* <HOC /> */}
+      {/* <CounterForTodos /> */}
+      {/* <UseMemo /> */}
+      <RadioButton />
     </div>
   );
 }
